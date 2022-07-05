@@ -1,0 +1,40 @@
+ body 
+ {
+    margin: 0;
+    padding: 0;
+    font-family: Comic sans-serif;
+ }
+
+ table
+ {
+    margin: 0;
+    border: 2px solid #353A46;
+    background-color: #3ABAF1;
+    position: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+ }
+
+ td
+ {
+    padding: 10px 40px;
+ }
+
+ input[type=text], input[type=password]
+ {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    background: transparent;
+ }
+
+label
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
